@@ -61,3 +61,15 @@ button {
   font-size: 10px;
   box-shadow: 0 3px #737373;
 }
+
+.high-priority {
+  color: rgb(173, 26, 26);
+}
+
+.medium-priority {
+  color: rgb(235, 235, 48);
+}
+
+.low-priority {
+  color: rgb(36, 113, 36);
+}
