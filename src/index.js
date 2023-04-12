@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function createTask(task){
     let li = document.createElement('li'); // Creates new list element
     let btn  = document.createElement('button'); // Creates new button element
+    btn.classList.add('delete-btn');
     btn.addEventListener('click', deleteTask); 
     btn.textContent = 'X'; // Sets button text to X
     li.textContent = `${task} `; // fills the list element with text from the input field
